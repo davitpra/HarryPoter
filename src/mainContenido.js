@@ -55,7 +55,7 @@ function ordenar (data) {
     crearTarjetas(dataOrdenada)
 
   } else if (option.value==="descendente") {
-    const dataDesendente = invertir(dataOrdenada)
+    const dataDesendente = data.sort((a, b) => (b.name.localeCompare(a.name)))
     crearTarjetas(dataDesendente)
   }
 }

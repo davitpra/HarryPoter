@@ -20,7 +20,6 @@
   <main>
     <!--Contenido principal. Info data-->
 
-    
     <div class="contenido" id="contenidoHome">
       <!--Bienvenida-->
 
@@ -28,28 +27,25 @@
       <img src="imagenes/hedwig.png" alt="Lechuza" id="hedwig">
 
     </div>
- 
+
     <!--Personajes-->
     <div class="contenido" id="contenidoPersonajes">
 
-      <!--<form id="ordenAscDesc"> -->  <!--action="#"-->
-        <select name="orden" id="orden">
-          <option id="asc"value="ascendente">Ascendente A-Z</option>
-          <option id="desc"value="descendente">Descendente Z-A</option>
-        </select>
-        <button type="submit" id= "enviarOrdenar"> Ordenar </button> 
-      <!--</form>-->
-
-            <!--AQUI APARECEN TARJETAS DE LOS PERSONAJES-->
-            
-    
+      <select name="orden" id="orden">
+        <option id="asc"value="ascendente">Ascendente A-Z</option>
+        <option id="desc"value="descendente">Descendente Z-A</option>
+      </select>
+      <button type="submit" id= "enviarOrdenar"> Ordenar </button>
 
     </div>
 
+    <article class="contenido" id="targeta">
+              <!--AQUI APARECEN TARJETAS DE LOS PERSONAJES-->
+    </article>
 
     <!-- <div class="contenido" id="contenidoLibros">
         AQUI APARECEN LIBROS
-      </div> 
+      </div>
 
       <div class="contenido" id="contenidoCasas">
         AQUI APARECE INFO DE LAS CASAS
@@ -62,8 +58,7 @@
     <nav id="menuInferior">
       <!--menú inferior-->
       <div class="menu-inferior-btn">
-        <button id="personajesBtn">P</button>
-        <label for="pesonajesBtn">Personajes</label>
+        <button id="personajesBtn">Personajes</button>
       </div>
       <!--<button class="click"  id="librosBtn">Libros</button>
       <button class="click" id="casasBtn">Casas</button>
